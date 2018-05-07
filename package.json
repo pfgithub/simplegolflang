@@ -1,0 +1,18 @@
+{
+  "name": "simplegolflang",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "lcov-report": "nyc report --reporter lcov",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/pfgithub/simplegolflang.git",
+  "author": "pfg <omegariisthebest@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1"
+  }
+}
